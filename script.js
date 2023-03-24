@@ -1,3 +1,5 @@
+console.log("hello")
+
 const robots = {
     ironMan007: {
         "english_title": "Iron Man 007",
