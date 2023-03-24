@@ -112,6 +112,7 @@ header {
     top: 15vh;
     height: 65vh;
     width: 100vw;
+    padding-left: 0.5vw;
     border-top: 1.5px white solid;
 }
 
@@ -132,7 +133,6 @@ header {
     margin: 0px;
     height: 60vh;
     width: 45vw;
-    background-color: rgb(1, 3, 31);
 }
 
 .info-image {
