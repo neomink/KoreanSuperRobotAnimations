@@ -22,10 +22,12 @@ header {
 
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 #header-title {
     display: flex;
+    gap: 10px;
     position: relative;
     bottom: 1vh;
     left: 3vw;
@@ -35,75 +37,99 @@ header {
 }
 
 #korean {
+    z-index: 1;
     color: white;
-    text-shadow: 0px 0px 0 rgb(250,188,2),
-    -1px 1px 0 rgb(245,183,0),
-    -2px 2px 0 rgb(240,178,0),
-    -3px 3px 0 rgb(235,173,0),
-    -4px 4px 0 rgb(230,168,0),
-    -5px 5px 0 rgb(225,163,0),
-    -6px 6px 0 rgb(220,158,0),
-    -7px 7px 0 rgb(215,153,0),
-    -8px 8px 0 rgb(210,148,0),
-    -9px 9px 0 rgb(205,143,0),
-    -10px 10px  0 rgb(200,138,0),
-    -11px 11px 10px rgba(0,0,0,0.6),
-    -11px 11px 1px rgba(0,0,0,0.5),
-    0px 0px 10px rgba(0,0,0,.2);
+    text-shadow: 0px 0px 0 black,
+                 1px 1px 0 black,
+                 2px 2px 0 black,
+                 3px 3px 0 black,
+                 4px 4px 0 black,
+                 5px 5px 0 rgb(85,85,85),
+                 6px 6px 0 rgb(82,82,82),
+                 7px 7px 0 rgb(78,78,78),
+                 8px 8px 0 rgb(75,75,75),
+                 9px 9px 0 rgb(72,72,72),
+                 10px 10px 0 rgb(68,68,68),
+                 11px 11px 0 rgb(65,65,65),
+                 12px 12px 0 rgb(62,62,62),
+                 13px 13px 0 rgb(58,58,58),
+                 14px 14px 0 rgb(55,55,55),
+                 15px 15px  0 rgb(52,52,52),
+                 16px 16px 15px rgba(230,85,85,0.6),
+                 16px 16px 1px rgba(230,85,85,0.5),
+                 0px 0px 15px rgba(230,85,85,.2);
 }
 
 #super {
+    z-index: 2;
     color: red;
-    text-shadow: 0px 0px 0 rgb(250,188,2),
-    -1px 1px 0 rgb(245,183,0),
-    -2px 2px 0 rgb(240,178,0),
-    -3px 3px 0 rgb(235,173,0),
-    -4px 4px 0 rgb(230,168,0),
-    -5px 5px 0 rgb(225,163,0),
-    -6px 6px 0 rgb(220,158,0),
-    -7px 7px 0 rgb(215,153,0),
-    -8px 8px 0 rgb(210,148,0),
-    -9px 9px 0 rgb(205,143,0),
-    -10px 10px  0 rgb(200,138,0),
-    -11px 11px 10px rgba(0,0,0,0.6),
-    -11px 11px 1px rgba(0,0,0,0.5),
-    0px 0px 10px rgba(0,0,0,.2);
+    text-shadow: 0px 0px 0 black,
+                 1px 1px 0 black,
+                 2px 2px 0 black,
+                 3px 3px 0 black,
+                 4px 4px 0 black,
+                 5px 5px 0 rgb(85,85,85),
+                 6px 6px 0 rgb(82,82,82),
+                 7px 7px 0 rgb(78,78,78),
+                 8px 8px 0 rgb(75,75,75),
+                 9px 9px 0 rgb(72,72,72),
+                 10px 10px 0 rgb(68,68,68),
+                 11px 11px 0 rgb(65,65,65),
+                 12px 12px 0 rgb(62,62,62),
+                 13px 13px 0 rgb(58,58,58),
+                 14px 14px 0 rgb(55,55,55),
+                 15px 15px  0 rgb(52,52,52),
+                 16px 16px 15px rgba(230,85,85,0.6),
+                 16px 16px 1px rgba(230,85,85,0.5),
+                 0px 0px 15px rgba(230,85,85,.2);
 }
 
 #robot {
+    z-index: 3;
     color: blue;
-    text-shadow: 0px 0px 0 rgb(250,188,2),
-    -1px 1px 0 rgb(245,183,0),
-    -2px 2px 0 rgb(240,178,0),
-    -3px 3px 0 rgb(235,173,0),
-    -4px 4px 0 rgb(230,168,0),
-    -5px 5px 0 rgb(225,163,0),
-    -6px 6px 0 rgb(220,158,0),
-    -7px 7px 0 rgb(215,153,0),
-    -8px 8px 0 rgb(210,148,0),
-    -9px 9px 0 rgb(205,143,0),
-    -10px 10px  0 rgb(200,138,0),
-    -11px 11px 10px rgba(0,0,0,0.6),
-    -11px 11px 1px rgba(0,0,0,0.5),
-    0px 0px 10px rgba(0,0,0,.2);
+    text-shadow: 0px 0px 0 black,
+                 1px 1px 0 black,
+                 2px 2px 0 black,
+                 3px 3px 0 black,
+                 4px 4px 0 black,
+                 5px 5px 0 rgb(85,85,85),
+                 6px 6px 0 rgb(82,82,82),
+                 7px 7px 0 rgb(78,78,78),
+                 8px 8px 0 rgb(75,75,75),
+                 9px 9px 0 rgb(72,72,72),
+                 10px 10px 0 rgb(68,68,68),
+                 11px 11px 0 rgb(65,65,65),
+                 12px 12px 0 rgb(62,62,62),
+                 13px 13px 0 rgb(58,58,58),
+                 14px 14px 0 rgb(55,55,55),
+                 15px 15px  0 rgb(52,52,52),
+                 16px 16px 15px rgba(230,85,85,0.6),
+                 16px 16px 1px rgba(230,85,85,0.5),
+                 0px 0px 15px rgba(230,85,85,.2);
 }
 
 #animations {
+    z-index: 4;
     color: yellow;
-    text-shadow: 0px 0px 0 rgb(250,188,2),
-    -1px 1px 0 rgb(245,183,0),
-    -2px 2px 0 rgb(240,178,0),
-    -3px 3px 0 rgb(235,173,0),
-    -4px 4px 0 rgb(230,168,0),
-    -5px 5px 0 rgb(225,163,0),
-    -6px 6px 0 rgb(220,158,0),
-    -7px 7px 0 rgb(215,153,0),
-    -8px 8px 0 rgb(210,148,0),
-    -9px 9px 0 rgb(205,143,0),
-    -10px 10px  0 rgb(200,138,0),
-    -11px 11px 10px rgba(0,0,0,0.6),
-    -11px 11px 1px rgba(0,0,0,0.5),
-    0px 0px 10px rgba(0,0,0,.2);
+    text-shadow: 0px 0px 0 black,
+                 1px 1px 0 black,
+                 2px 2px 0 black,
+                 3px 3px 0 black,
+                 4px 4px 0 black,
+                 5px 5px 0 rgb(85,85,85),
+                 6px 6px 0 rgb(82,82,82),
+                 7px 7px 0 rgb(78,78,78),
+                 8px 8px 0 rgb(75,75,75),
+                 9px 9px 0 rgb(72,72,72),
+                 10px 10px 0 rgb(68,68,68),
+                 11px 11px 0 rgb(65,65,65),
+                 12px 12px 0 rgb(62,62,62),
+                 13px 13px 0 rgb(58,58,58),
+                 14px 14px 0 rgb(55,55,55),
+                 15px 15px  0 rgb(52,52,52),
+                 16px 16px 15px rgba(230,85,85,0.6),
+                 16px 16px 1px rgba(230,85,85,0.5),
+                 0px 0px 15px rgba(230,85,85,.2);
 }
 
 #container {
@@ -140,6 +166,7 @@ header {
     position: relative;
     bottom: 15vh;
     left: 23vw;
+    z-index: -1;
 }
 
 #videos {
@@ -159,9 +186,10 @@ header {
 }
 
 iframe {
-    width: 53vw;
+    position: relative;
+    right: 43px;
+    width: 45vw;
     height: 63vh;
-
 }
 
 #years {
@@ -203,6 +231,7 @@ iframe {
 
 .buttons:hover {
     animation: glitch 100ms infinite;
+    cursor: pointer;
 }
 
 @keyframes glitch {

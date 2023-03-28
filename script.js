@@ -75,7 +75,7 @@ const robots = {
         "production": "Se-Jeong Culture",
         "duration": "71 minutes",
         "skills": "missile",
-        "images": "robot-taekwon-v-vs-golden-wing.png",
+        "images": "robot-taekwon-v-golden-wing.png",
         "youtube": "v7I9j0VKHA0"
     },
     robotTaekwonVMarineForce: {
@@ -86,7 +86,7 @@ const robots = {
         "production": "u production",
         "duration": "75 minutes",
         "skills": "missile",
-        "images": "robot-taekwon-v-marine-force.png",
+        "images": "robot-taekwon-v-marine-mission.png",
         "youtube": "WFMD84JQekw"
     },
     flySpaceTurtleShip: {
@@ -152,7 +152,7 @@ const robots = {
         "production": "nam-yang",
         "duration": "78 minutes",
         "skills": "missile",
-        "images": "marine-expedition-x",
+        "images": "marine-expedition-x.png",
         "youtube": "GatAIcPACEA"
     },
     superTaekwonV: {
@@ -330,12 +330,11 @@ function robotElement(robot) {
     const ironMan007Info = document.createElement('div');
     const infoHTML = `
     <ul>
+        <li class="info-list">korean title: ${robot.korean_title}</li>
         <li class="info-list">year: ${robot.year}</li>
         <li class="info-list">director: ${robot.director}</li>
         <li class="info-list">production: ${robot.production}</li>
         <li class="info-list">duration: ${robot.duration}</li>
-        <li class="info-list">skills: ${robot.skills}</li>
-
     </ul>
     <img src="${robot.images}" class="info-image">
     `
