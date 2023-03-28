@@ -186,8 +186,6 @@ header {
 }
 
 iframe {
-    position: relative;
-    right: 43px;
     width: 45vw;
     height: 63vh;
 }
