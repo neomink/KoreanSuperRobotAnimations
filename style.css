@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Inconsolata:wght@400;500&family=Racing+Sans+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Inconsolata:wght@400;500&family=Nanum+Gothic+Coding&family=Racing+Sans+One&display=swap');
 
 * {
     color: white;
@@ -122,14 +121,16 @@ header {
     margin:3px;
     padding:0px;
     height: 5vh;
+    width: 65vh;
 
-    font-size: 4.8rem;
+    font-size: 4.6rem;
     font-family: "Racing Sans One", sans-serif;
+    word-break: normal;
 }
 
 #info {
     position: relative;
-    bottom: 5vh;
+    bottom: -2vh;
     margin: 0px;
     height: 60vh;
     width: 45vw;
@@ -137,7 +138,7 @@ header {
 
 .info-image {
     position: relative;
-    bottom: 10vh;
+    bottom: 15vh;
     left: 23vw;
 }
 
@@ -260,4 +261,3 @@ li {
     font-family: 'Inconsolata', monospace;
     line-height: 1.6rem;
 }
-
