@@ -158,15 +158,18 @@ header {
     position: relative;
     bottom: -2vh;
     margin: 0px;
-    height: 60vh;
+    height: 50vh;
     width: 45vw;
+    overflow: hidden;
 }
 
 .info-image {
     position: relative;
-    bottom: 15vh;
-    left: 23vw;
+    bottom: 25vh;
+    left: 17vw;
     z-index: -1;
+    width: 60%;
+    height: auto;
 }
 
 #videos {

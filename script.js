@@ -298,15 +298,15 @@ const robots = {
         "images": "ttol-and-zeta-robot.png",
         "youtube": "cGlxYu63S00"
     },
-    phoenixRobotKing: {
-        "english_title": "Phoenix Robot King",
-        "korean_title": "불사조 로보트 피닉스 킹",
-        "year": "1984",
-        "director": "soo-yong jung",
-        "production": "dae-gwang",
-        "duration": "68 minutes",
+    robotTaekwonV90: {
+        "english_title": "Robot Taekwon V 90",
+        "korean_title": "로보트 태권 브이 90",
+        "year": "1990",
+        "director": "chungi-gi kim",
+        "production": "seoul animation",
+        "duration": "85 minutes",
         "skills": "missile",
-        "images": "phoenix-robot-king.png",
+        "images": "robot-taekwon-v-90.png",
         "youtube": "vd8WQ1idBko"
     }
 }
@@ -390,7 +390,7 @@ const microForceDiayaTron5Button = document.getElementById("micro-force-diaya-tr
 const ironManLamboteuButton = document.getElementById("iron-man-lamboteu");
 const ttolAndZetaRobotButton = document.getElementById("ttol-and-zeta-robot");
 
-const robotTaekwonV90 = document.getElementById("robot-taekon-v-90");
+const robotTaekwonV90Button = document.getElementById("robot-taekwon-v-90");
 
 ironMan007Button.addEventListener("click", function() { 
     robotElement(robots.ironMan007)
