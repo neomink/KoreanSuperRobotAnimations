@@ -311,8 +311,6 @@ const robots = {
     }
 }
 
-//Iron Man 007
-
 function robotElement(robot) {
 
     //title
