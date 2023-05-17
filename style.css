@@ -192,11 +192,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    overflow: hidden;
 }
 
 iframe {
-    width: 45vw;
-    height: 63vh;
+    width: 55vw;
+    height: 67vh;
 }
 
 #years {
@@ -231,7 +233,7 @@ iframe {
 
 .buttons {
     font-family: 'Inconsolata', monospace;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     background-color: transparent;
 }
