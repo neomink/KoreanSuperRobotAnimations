@@ -334,7 +334,6 @@ function robotElement(robot) {
         <li class="info-list">production: ${robot.production}</li>
         <li class="info-list">duration: ${robot.duration}</li>
     </ul>
-    <img src="${robot.images}" class="info-image">
     `
     ironMan007Info.innerHTML = infoHTML
     infoList.innerHTML = ''
